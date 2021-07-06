@@ -1,0 +1,34 @@
+body {
+    font-family: Poppins, Open-Sans;
+}
+
+#navigation .container {
+    width: 1600px;
+    height: 865px;
+    position: relative;
+}
+
+#navigation .container-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navigation .container-flex ul {
+    display: flex;
+}
+
+#navigation .container-flex ul li {
+    list-style-type: none;
+}
+
+#navigation .container .background_img {
+    position: absolute;
+    width: 1600px;
+    height: 865px;
+    right: 111px;
+}
+
+#navigation .container .city {
+    width: 1600px;
+    height: 245px;
+}
