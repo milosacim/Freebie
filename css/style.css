@@ -13,12 +13,19 @@ header .container .header_background {
     width: 1600px;
     height: 865px;
     position: absolute;
-    right: 30px;
-    top: 10px;
+    right: 0px;
+}
+
+header .phone {
+    width: 446px;
+    height: 816px;
+    position: absolute;
+    top: 100px;
+    left: 580px;
 }
 
 #applab {
-    padding-right: 300px;
+    padding-right: 250px;
     font-size: 30px;
     font-weight: 700;
 }
@@ -29,7 +36,6 @@ header .container .header_background {
 
 #navigation {
     display: flex;
-    position: sticky;
 }
 
 #navigation ul {
@@ -39,10 +45,17 @@ header .container .header_background {
 
 #navigation ul li {
     list-style-type: none;
-    padding-left: 1.5rem;
+    padding-left: 2.5rem;
+}
+
+#navigation ul li a{
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
 }
 
 #navigation .btn {
     padding: .75rem 2rem 0 2rem;
-    margin-left: 1.5rem;
+    margin-left: 2.5rem;
 }
