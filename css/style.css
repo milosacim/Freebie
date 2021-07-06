@@ -1,0 +1,48 @@
+header .container {
+    margin-top: 2rem;
+    width: 1600px;
+    height: 966px;
+    background-image: url(../img/Layer_5.png);
+    background-repeat: repeat-x;
+    background-position:bottom;
+    background-size: 1140px 245px;
+    position: relative;
+}
+
+header .container .header_background {
+    width: 1600px;
+    height: 865px;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+
+#applab {
+    padding-right: 300px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#applab .orange {
+    color: orange;
+}
+
+#navigation {
+    display: flex;
+    position: sticky;
+}
+
+#navigation ul {
+    padding-top: .75rem;
+    display: flex;
+}
+
+#navigation ul li {
+    list-style-type: none;
+    padding-left: 1.5rem;
+}
+
+#navigation .btn {
+    padding: .75rem 2rem 0 2rem;
+    margin-left: 1.5rem;
+}
