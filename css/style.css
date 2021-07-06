@@ -1,61 +1,120 @@
-header .container {
-    margin-top: 2rem;
-    width: 1600px;
-    height: 966px;
-    background-image: url(../img/Layer_5.png);
-    background-repeat: repeat-x;
-    background-position:bottom;
-    background-size: 1140px 245px;
-    position: relative;
+body{
+    font-family:'Poppins', sans-serif !important;
+    background: url(../img/Vector_Smart_Object.png) no-repeat;
+    background-position:top;
+    background-size: top/cover;
 }
 
-header .container .header_background {
-    width: 1600px;
-    height: 865px;
-    position: absolute;
-    right: 0px;
+#navigation .container{
+    padding-top: 60px;
+    display: flex;
 }
 
-header .phone {
-    width: 446px;
-    height: 816px;
-    position: absolute;
-    top: 100px;
-    left: 580px;
+#navigation ul{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
 }
 
-#applab {
-    padding-right: 250px;
+#navigation .container ul li{
+    list-style-type: none;
+    padding-left: 2rem;
+}
+
+#navigation .container ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+#navigation .btn {
+    padding-top: .75rem;
+    margin-top: -.75rem;
+    margin-left: 2rem;
+    font-weight: 700;
+    width: 170px;
+    height: 57px;
+}
+
+#applab{
+    margin-top: -15px;
     font-size: 30px;
     font-weight: 700;
 }
 
-#applab .orange {
+#applab .orange{
     color: orange;
 }
 
-#navigation {
-    display: flex;
+header {
+    position: relative;
+    background: url(../img/Layer_5.png) no-repeat bottom;
+    background-size: auto;
+    width: 100%;
+    height: 100%;
 }
 
-#navigation ul {
-    padding-top: .75rem;
-    display: flex;
+header .phone {
+    position: absolute;
+    top: 100px;
+    left: 700px;
 }
 
-#navigation ul li {
-    list-style-type: none;
-    padding-left: 2.5rem;
+header .container{
+    position: relative;
 }
 
-#navigation ul li a{
-    font-size: 16px;
-    font-weight: 500;
-    color: black;
+header .container .header_content {
+    background: url(../img/Layer_3.png);
+    background-size: cover;
+    position: absolute;
+    height: 57px;
+    width: 550px;
+    top: 250px;
+}
+
+header .container .header_content h1{
+    padding-top: 10px;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+header .container .header_content p {
+    font-size: 20px;
+}
+
+header .container .header_content a {
     text-decoration: none;
+    padding-top: .75rem;
+    margin-right: 1rem;
+    font-weight: 700;
+    width: 170px;
+    height: 57px;
 }
 
-#navigation .btn {
-    padding: .75rem 2rem 0 2rem;
-    margin-left: 2.5rem;
+header .container .header_content .badge{
+    display: flex;
+    font-size: 18px;
+    background: #e2eaed;
+    width: 330px;
+    border-radius: 50rem;
+}
+
+#companies h6 {
+    margin: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+#logos .container {
+    display: flex;
+    margin: 60px;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+#logos .container span{
+    margin-right: 6rem;
 }
