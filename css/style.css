@@ -48,21 +48,19 @@ body{
 }
 
 header {
-    position: relative;
     background: url(../img/Layer_5.png) no-repeat bottom;
-    background-size: auto;
     width: 100%;
     height: 100%;
+}
+
+header .container{
+    position: relative;
 }
 
 header .phone {
     position: absolute;
     top: 100px;
     left: 700px;
-}
-
-header .container{
-    position: relative;
 }
 
 header .container .header_content {
@@ -123,7 +121,7 @@ header .container .header_content .badge{
 
 #features .container .content{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     position: relative;
 }
 
@@ -133,7 +131,58 @@ header .container .header_content .badge{
     left: -150px;
 }
 
-#features .container .content .app_features .performance{
-    display: flex;
-    
+#features .container .content .app_features {
+    width: 50%;
 }
+
+#features .container .content .app_features .performance{
+    width: 80%;
+    display: flex;
+    margin-top: 2rem;
+}
+
+#features .container .content .app_features .performance h4,
+#features .container .content .app_features .performance p{
+    padding-left: 1.5rem;
+}
+
+#features .container .content .app_features .prototyping{
+    width: 80%;
+    display: flex;
+    margin-top: 2rem;
+}
+
+#features .container .content .app_features .prototyping h4,
+#features .container .content .app_features .prototyping p{
+    padding-left: 1.5rem;
+}
+
+#features .container .content .app_features .editing{
+    width: 80%;
+    display: flex;
+    margin-top: 2rem;
+}
+
+#features .container .content .app_features .editing h4,
+#features .container .content .app_features .editing p{
+    padding-left: 1.5rem;
+}
+
+.speed{
+    position:absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.prototype{
+    position:absolute;
+    top: 225px;
+    left: 15px;
+}
+
+.vector{
+    position:absolute;
+    top: 350px;
+    left: 15px;
+}
+
