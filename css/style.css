@@ -1,8 +1,5 @@
 body{
     font-family:'Poppins', sans-serif !important;
-    background: url(../img/Vector_Smart_Object.png) no-repeat;
-    background-position:top;
-    background-size: top/cover;
 }
 
 /* #navigation{
@@ -79,6 +76,12 @@ header .container .header_content {
     z-index: 2;
 }
 
+#header_bgr{
+    position: absolute;
+    top: 9rem;
+    left: 9.5rem;
+}
+
 #content_bgr{
     top: 8rem;
     left: -18rem;
@@ -137,7 +140,7 @@ header .container .header_content .badge span{
 }
 
 #features{
-    padding-top: 12.5rem;
+    padding-top: 10rem;
 }
 
 #features .container .content{
@@ -162,9 +165,9 @@ header .container .header_content .badge span{
 }
 
 #features .container .content .app_features .performance{
+    margin-top: 4rem;
     width: 80%;
     display: flex;
-    margin-top: 5rem;
     position: relative;
 }
 
@@ -184,7 +187,7 @@ header .container .header_content .badge span{
 #features .container .content .app_features .prototyping{
     width: 80%;
     display: flex;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 #features .container .content .app_features .prototyping h5{
@@ -199,7 +202,7 @@ header .container .header_content .badge span{
 #features .container .content .app_features .editing{
     width: 80%;
     display: flex;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 #features .container .content .app_features .editing{
@@ -233,3 +236,81 @@ header .container .header_content .badge span{
     left: 1rem;
 }
 
+#jackpots{
+    display: flex;
+    margin-top: 15rem;
+    justify-content: space-around;
+}
+
+#jackpots h1{
+    font-family: 'Poppins SemiBold', sans-serif;
+    margin-right: 60px;
+}
+
+#jackpots p{
+    padding-left: 60px;
+    padding-top: 25px;
+    font-size: 20px;
+    color: #616368;
+    border-left: 2px solid #616368;
+}
+
+#rewards .container{
+    margin-top: 8rem;
+    display: flex;
+}
+
+#rewards .container h5{
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+}
+
+#rewards .container>:nth-child(2){
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+#rewards .container .payouts{
+    position: relative;
+}
+
+#rewards .container .payouts h5{
+    color: red;
+    font-weight: 700;
+}
+
+.bill {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+#rewards .container .network{
+    position: relative;
+}
+
+#rewards .container .network h5{
+    color: blue;
+    font-weight: 700;
+}
+
+.network_icon {
+    position: absolute;
+    top: 1rem;
+    left: 6rem;
+}
+
+#rewards .container .rewards{
+    position: relative;
+}
+
+#rewards .container .rewards h5{
+    color: green;
+    font-weight: 700;
+}
+
+.icon_badge {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
