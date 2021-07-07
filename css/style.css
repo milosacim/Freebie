@@ -5,6 +5,15 @@ body{
     background-size: top/cover;
 }
 
+/* #navigation{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    overflow: hidden;
+    background-color: white;
+} */
+
 #navigation .container{
     padding-top: 4rem;
     display: flex;
@@ -30,7 +39,7 @@ body{
 
 #navigation .btn {
     padding-top: .75rem;
-    margin-top: -.75rem;
+    margin-top: -1rem;
     margin-left: 2rem;
     font-weight: 700;
     width: 15rem;
@@ -40,6 +49,7 @@ body{
 #applab{
     font-size: 30px;
     font-weight: 700;
+    margin-top: -1rem;
 }
 
 #applab .orange{
@@ -64,8 +74,15 @@ header .phone {
 
 header .container .header_content {
     position: absolute;
-    padding-top: 320px;
+    padding-top: 20rem;
     width: 50%;
+    z-index: 2;
+}
+
+#content_bgr{
+    top: 8rem;
+    left: -18rem;
+    position: absolute;
 }
 
 header .container .header_content h1{
@@ -88,10 +105,19 @@ header .container .header_content a {
 
 header .container .header_content .badge{
     display: flex;
+    justify-content: flex-start;
     font-size: 16px;
     background: #e2eaed;
-    width: 20rem;
+    width: 25rem;
     border-radius: 50rem;
+}
+
+header .container .header_content .badge i{
+    padding-right: 1rem;
+}
+
+header .container .header_content .badge span{
+    padding-top: .5rem;
 }
 
 #companies h6 {
