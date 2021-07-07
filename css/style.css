@@ -116,6 +116,7 @@ header .container .header_content .badge{
 }
 
 header .container .header_content .badge i{
+    color: orange;
     padding-right: 1rem;
 }
 
@@ -275,6 +276,7 @@ header .container .header_content .badge span{
 }
 
 #rewards .container .payouts h5{
+    font-family: 'Poppins SemiBold', sans-serif;
     color: red;
     font-weight: 700;
 }
@@ -290,6 +292,7 @@ header .container .header_content .badge span{
 }
 
 #rewards .container .network h5{
+    font-family: 'Poppins SemiBold', sans-serif;
     color: blue;
     font-weight: 700;
 }
@@ -305,6 +308,7 @@ header .container .header_content .badge span{
 }
 
 #rewards .container .rewards h5{
+    font-family: 'Poppins SemiBold', sans-serif;
     color: green;
     font-weight: 700;
 }
@@ -313,4 +317,45 @@ header .container .header_content .badge span{
     position: absolute;
     top: 1rem;
     left: 1rem;
+}
+
+#design{
+    padding-top: 8rem;
+}
+
+#design .container .content{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#design .container .content .design_content {
+    padding-top: 6rem;
+    margin-right: 5rem;
+    width: 40%;
+}
+#design .container .content .design_content h1{
+    font-family: 'Poppins SemiBold', sans-serif;
+}
+
+#design .container .content .design_content p{
+    padding-top: 1rem;
+    color: #616368;;
+}
+
+#design .container .content .design_img{
+    position: relative;
+}
+
+#design .container img{
+    right: 10rem;
+    position: absolute;
+}
+
+#design .btn{
+
+    padding-top: .75rem;
+    margin-top: 1rem;
+    font-weight: 700;
+    width: 10rem;
+    height: 3.25rem;
 }
