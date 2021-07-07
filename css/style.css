@@ -48,7 +48,7 @@ body{
 }
 
 header {
-    background: url(../img/Layer_5.png) no-repeat bottom;
+    background: url(../img/Layer_5.png) repeat-x bottom;
     width: 100%;
     height: 100%;
 }
@@ -135,15 +135,29 @@ header .container .header_content .badge{
     width: 50%;
 }
 
+#features .container .content .app_features h2{
+    width: 50%;
+    font-weight: 700;
+}
+
 #features .container .content .app_features .performance{
     width: 80%;
     display: flex;
-    margin-top: 2rem;
+    margin-top: 5rem;
+    position: relative;
 }
 
-#features .container .content .app_features .performance h4,
+#features .container .content .app_features .performance h5{
+    color: red;
+    font-weight: 700;
+    padding-left: 1.5rem;
+}
 #features .container .content .app_features .performance p{
     padding-left: 1.5rem;
+}
+
+#features .container .content .app_features .prototyping {
+    position: relative;
 }
 
 #features .container .content .app_features .prototyping{
@@ -152,7 +166,11 @@ header .container .header_content .badge{
     margin-top: 2rem;
 }
 
-#features .container .content .app_features .prototyping h4,
+#features .container .content .app_features .prototyping h5{
+    color: blue;
+    font-weight: 700;
+    padding-left: 1.5rem;
+}
 #features .container .content .app_features .prototyping p{
     padding-left: 1.5rem;
 }
@@ -163,7 +181,15 @@ header .container .header_content .badge{
     margin-top: 2rem;
 }
 
-#features .container .content .app_features .editing h4,
+#features .container .content .app_features .editing{
+    position: relative;
+}
+
+#features .container .content .app_features .editing h5{
+    color: green;
+    font-weight: 700;
+    padding-left: 1.5rem;
+}
 #features .container .content .app_features .editing p{
     padding-left: 1.5rem;
 }
@@ -176,13 +202,13 @@ header .container .header_content .badge{
 
 .prototype{
     position:absolute;
-    top: 225px;
+    top: 15px;
     left: 15px;
 }
 
 .vector{
     position:absolute;
-    top: 350px;
+    top: 20px;
     left: 15px;
 }
 
