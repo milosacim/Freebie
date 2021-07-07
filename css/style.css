@@ -111,10 +111,29 @@ header .container .header_content .badge{
     display: flex;
     margin: 60px;
     justify-content: center;
-    width: 100%;
-    height: 100%;
 }
 
 #logos .container span{
     margin-right: 6rem;
+}
+
+#features{
+    padding-top: 200px;
+}
+
+#features .container .content{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+#features .container .content .phone_2{
+    position: absolute;
+    top: -50px;
+    left: -150px;
+}
+
+#features .container .content .app_features .performance{
+    display: flex;
+    
 }
