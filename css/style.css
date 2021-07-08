@@ -457,3 +457,109 @@ header .container .header_content .badge span{
     top: 1rem;
     left: 8rem;
 }
+
+#choice .container .content h5{
+    font-family: 'Poppins SemiBold', sans-serif;
+    font-weight: 700;
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+}
+
+#ultimate{
+    padding-top: 10rem;
+}
+
+#ultimate .container .ultimate_content{
+    position: relative;
+    width: 880px;
+}
+
+#ultimate .container .ultimate_content .ultimate_heading{
+    width: 400px;
+}
+
+#ultimate .container .ultimate_content .ultimate_heading h1{
+    font-family: 'Poppins SemiBold', sans-serif;
+    font-weight: 700;
+}
+
+#ultimate .container .ultimate_content .icons_first_row,
+#ultimate .container .ultimate_content .icons_second_row{
+    padding-top: 2rem;
+    display: flex;
+}
+
+#ultimate .container .ultimate_content .icons_first_row>:nth-child(2),
+#ultimate .container .ultimate_content .icons_second_row>:nth-child(2){
+    padding-left: 107px;
+}
+
+#ultimate .container .ultimate_content .icons_first_row p,
+#ultimate .container .ultimate_content .icons_second_row p{
+    width: 260px;
+}
+
+#ultimate .container .ultimate_content .icons_first_row h5,
+#ultimate .container .ultimate_content .icons_second_row h5{
+    font-family: 'Poppins SemiBold', sans-serif;
+    font-weight: 700;
+}
+
+#ultimate .container .ultimate_content .icons_first_row,
+#ultimate .container .ultimate_content .icons_second_row{
+    position: relative;
+}
+
+#ultimate .container .ultimate_content .icons_first_row>:first-child>:first-child>:nth-child(2){
+    position: absolute;
+    top: 45px;
+    left: 15px;
+}
+
+#ultimate .container .ultimate_content .icons_first_row>:nth-child(2)>:first-child>:nth-child(2){
+    position: absolute;
+    top: 50px;
+    left: 385px;
+}
+
+#ultimate .container .ultimate_content .icons_second_row>:first-child>:first-child>:nth-child(2){
+    position: absolute;
+    top: 45px;
+    left: 15px;
+}
+
+#ultimate .container .ultimate_content .icons_second_row>:nth-child(2)>:first-child>:nth-child(2){
+    position: absolute;
+    top: 50px;
+    left: 385px;
+}
+
+#ultimate .container .ultimate_content a{
+    text-decoration: none;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    margin-right: 1rem;
+    font-weight: 700;
+    width: 10rem;
+    height: 3.5rem;
+}
+
+#ultimate .container .ultimate_content .images{
+    position: absolute;
+    bottom: 700px;
+    left: 650px;
+}
+
+#ultimate .container .ultimate_content .images>:nth-child(n){
+    position: absolute;
+}
+
+.dark_phone{
+    top: 100px;
+    left: -50px;
+}
+
+.light_phone{
+    top: 100px;
+    left: 200px;
+}
