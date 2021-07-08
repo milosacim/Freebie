@@ -89,6 +89,7 @@ header .container .header_content {
 }
 
 header .container .header_content h1{
+    font-family: 'Poppins SemiBold', sans-serif;
     font-size: 60px;
     font-weight: 700;
 }
@@ -145,6 +146,7 @@ header .container .header_content .badge span{
 }
 
 #features .container .content{
+
     display: flex;
     justify-content: flex-end;
     position: relative;
@@ -157,17 +159,20 @@ header .container .header_content .badge span{
 }
 
 #features .container .content .app_features {
-    width: 50%;
+    margin-left: 35rem;
 }
 
-#features .container .content .app_features h2{
+#features .container .content .app_features .heading h2{
     width: 50%;
     font-weight: 700;
 }
 
+#features .container .content .app_features .heading p{
+    width: 75%;
+}
+
 #features .container .content .app_features .performance{
     margin-top: 4rem;
-    width: 80%;
     display: flex;
     position: relative;
 }
@@ -178,6 +183,7 @@ header .container .header_content .badge span{
     padding-left: 1.5rem;
 }
 #features .container .content .app_features .performance p{
+    width: 65%;
     padding-left: 1.5rem;
 }
 
@@ -186,7 +192,6 @@ header .container .header_content .badge span{
 }
 
 #features .container .content .app_features .prototyping{
-    width: 80%;
     display: flex;
     margin-top: 4rem;
 }
@@ -197,11 +202,11 @@ header .container .header_content .badge span{
     padding-left: 1.5rem;
 }
 #features .container .content .app_features .prototyping p{
+    width: 65%;
     padding-left: 1.5rem;
 }
 
 #features .container .content .app_features .editing{
-    width: 80%;
     display: flex;
     margin-top: 4rem;
 }
@@ -216,6 +221,7 @@ header .container .header_content .badge span{
     padding-left: 1.5rem;
 }
 #features .container .content .app_features .editing p{
+    width: 60%;
     padding-left: 1.5rem;
 }
 
@@ -246,6 +252,7 @@ header .container .header_content .badge span{
 #jackpots h1{
     font-family: 'Poppins SemiBold', sans-serif;
     margin-right: 60px;
+    font-weight: 700;
 }
 
 #jackpots p{
@@ -335,6 +342,7 @@ header .container .header_content .badge span{
 }
 #design .container .content .design_content h1{
     font-family: 'Poppins SemiBold', sans-serif;
+    font-weight: 700;
 }
 
 #design .container .content .design_content p{
@@ -352,10 +360,100 @@ header .container .header_content .badge span{
 }
 
 #design .btn{
-
     padding-top: .75rem;
     margin-top: 1rem;
     font-weight: 700;
     width: 10rem;
     height: 3.25rem;
+}
+
+#choice {
+    margin-top: 8rem;
+}
+
+#choice .container .content .content_heading{
+    text-align: center;
+}
+
+#choice .container .content .content_heading h1{
+    padding-left: 300px;
+    padding-right: 300px;
+    font-family: 'Poppins SemiBold',sans-serif;
+    font-weight: 700;
+}
+
+#choice .container .content .content_heading p{
+    padding-top: 25px;
+    padding-left: 230px;
+    padding-right: 230px;
+}
+
+#choice .container .content .icons_first_row{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6rem;
+}
+
+#choice .container .content .icons_first_row>:nth-child(n){
+    text-align: center;
+    position: relative;
+}
+
+#choice .container .content .icons_first_row>:nth-child(2) {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+#choice .container .content .icons_first_row>:nth-child(n)>:first-child>:nth-child(2){
+    position: absolute;
+}
+
+.web_design {
+    top: 1rem;
+    right: 8rem;
+}
+
+.throphy{
+    top: 1rem;
+    left: 13.25rem;
+}
+
+.computer {
+    top: 1rem;
+    left: 8rem;
+}
+
+#choice .container .content .icons_second_row{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6rem;
+}
+
+#choice .container .content .icons_second_row>:nth-child(n){
+    text-align: center;
+    position: relative;
+}
+
+#choice .container .content .icons_second_row>:nth-child(2) {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+#choice .container .content .icons_second_row>:nth-child(n)>:first-child>:nth-child(2){
+    position: absolute;
+}
+
+.tools {
+    top: 1rem;
+    right: 8rem;
+}
+
+.planning{
+    top: 1rem;
+    left: 13.25rem;
+}
+
+.support {
+    top: 1rem;
+    left: 8rem;
 }
