@@ -563,3 +563,86 @@ header .container .header_content .badge span{
     top: 100px;
     left: 200px;
 }
+
+#pricing .container .pricing_content{
+    text-align: center;
+    margin-top: 15rem;
+}
+
+#pricing .container .pricing_content .pricing_heading h1{
+    padding-left: 250px;
+    padding-right: 250px;
+    font-family: 'Poppins SemiBold',sans-serif;
+    font-weight: 700;
+}
+
+#pricing .container .pricing_content .pricing_heading p{
+    padding-top: 25px;
+    padding-left: 230px;
+    padding-right: 230px;
+}
+
+#pricing .container .pricing_content .switch_plan{
+    margin: 2.5rem 0 2.5rem 0;
+    display: inline-block;
+    width: 220px;
+    height: 57px;
+    border: 1px solid #e2eaed;
+}
+
+#pricing .container .pricing_content .cards{
+    display: flex;
+    justify-content: center;
+}
+
+#pricing .container .pricing_content .cards .card_1{
+    width: 317px;
+    height: 554px;
+    box-shadow: 0 0 50px 0 #ebebeb;
+}
+
+#pricing .container .pricing_content .cards .card_2{
+    border: 2px solid #ebebeb;
+    margin-left: 40px;
+    width: 317px;
+    height: 605px;
+    box-shadow: 0 0 50px 0 #ebebeb;
+}
+
+#pricing .container .pricing_content .cards .card_1 h5,
+#pricing .container .pricing_content .cards .card_2 h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+#pricing .container .pricing_content .cards .card_1 .top,
+#pricing .container .pricing_content .cards .card_2 .top{
+    background-color: #f4f7f9;
+    height: 234px;
+    padding-top: 2rem;;
+}
+
+#pricing .container .pricing_content .cards .card_1 .top .price,
+#pricing .container .pricing_content .cards .card_2 .top .price{
+    font-size: 60px;
+    font-family: 'Poppins SemiBold', sans-serif;
+    font-weight: 700;
+}
+
+#pricing .container .pricing_content .cards .card_1 .bottom,
+#pricing .container .pricing_content .cards .card_2 .bottom{
+    padding-top: 2.5rem;
+}
+
+#pricing .container .pricing_content .cards .card_1 .bottom .btn,
+#pricing .container .pricing_content .cards .card_2 .bottom .btn{
+    padding-top: 1rem;
+    margin-top: 1rem;
+    width: 210px;
+    height: 56px;
+}
+
+#pricing .container .pricing_content .cards .card_2 .trial{
+    padding-top: 2rem;
+    text-decoration: none;
+}
