@@ -646,3 +646,52 @@ header .container .header_content .badge span{
     padding-top: 2rem;
     text-decoration: none;
 }
+
+#reviews{
+    padding-top: 10rem;
+}
+
+#reviews .container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#reviews .container .reviews_content{
+    position: relative;
+    width: 550px;
+}
+
+#reviews .container .reviews_content h1,
+#reviews .container .reviews_content .review h5{
+    font-family: 'Poppins SemiBold', sans-serif;
+    font-weight: 700;
+}
+
+#reviews .container .reviews_content p{
+    width: 500px;
+    padding-top: 10px;
+}
+
+#reviews .container .reviews_content .people_image{
+    position: absolute;
+    top: -200px;
+    right: 550px;
+}
+
+#reviews .container .reviews_content .review i{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    color: #ffcc00;
+}
+
+#reviews .container .reviews_content .review .user{
+    padding-top: 50px;
+    display: flex;
+}
+
+#reviews .container .reviews_content .review .user_data{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
