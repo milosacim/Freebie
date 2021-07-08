@@ -149,6 +149,7 @@ header .container .header_content .badge span{
 
     display: flex;
     justify-content: flex-end;
+    flex-direction: column;
     position: relative;
 }
 
@@ -332,7 +333,8 @@ header .container .header_content .badge span{
 
 #design .container .content{
     display: flex;
-    justify-content: flex-end;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
 #design .container .content .design_content {
