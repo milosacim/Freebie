@@ -650,7 +650,7 @@ header .container .header_content .badge span{
 }
 
 #reviews{
-    padding-top: 10rem;
+    margin-top: 15rem;
 }
 
 #reviews .container{
@@ -677,7 +677,7 @@ header .container .header_content .badge span{
 
 #reviews .container .reviews_content .people_image{
     position: absolute;
-    top: -200px;
+    top: -40px;
     right: 550px;
 }
 
@@ -697,3 +697,93 @@ header .container .header_content .badge span{
     margin-left: 20px;
 }
 
+#questions .container{
+    width: 945px;
+    margin-top: 200px;
+}
+
+#questions .container .questions_content .q_heading{
+    display: block;
+    text-align: center;
+}
+
+#questions .container .questions_content .q_heading p{
+    padding: 25px 125px 25px 125px;
+}
+
+.question{
+    margin-top: 5px;
+    background-color: #f5f7fa;
+    box-shadow: 0 0 15px 0 #c4c3c3;
+}
+
+.first_answer{
+    padding: 25px 40px 25px 50px;
+
+}
+
+.active_q:hover, .collapsible:hover{
+    background-color: #e1e2e4;
+}
+
+.collapsible{
+    text-align: left;
+    font-weight: 700;
+    padding: 25px 0 50px 50px;
+    border: none;
+    cursor: pointer;
+    height: 63px;
+}
+
+.collapsible:after {
+    content: '\f067';
+    font-family: "Font Awesome 5 Free";
+    color: black;
+    font-weight: bold;
+    margin-left: 400px;
+}
+
+.active_q:after{
+    content: '\f068';
+    font-family: "Font Awesome 5 Free";
+    color: black;
+    font-weight: bold;
+    margin-left: 400px;
+}
+
+.q_answer{
+    display: none;
+    padding: 25px 40px 25px 50px;
+}
+
+#download {
+    margin-top: 200px;
+}
+
+#download .container .download_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    width: 60%;
+}
+
+#download .container .download_content p{
+    padding-top: 10px;
+}
+
+.download_img{
+    position: absolute;
+    top: -90px;
+    left: 550px;
+}
+
+.store_img{
+    margin-top: 25px;
+    margin-bottom: 115px;
+}
+
+footer{
+    height: 567px;
+    background-color: #09142e;
+}
