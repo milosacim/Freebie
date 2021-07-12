@@ -1,0 +1,12 @@
+#navigation .btn{
+    display: none;
+}
+
+#navigation ul li{
+    display: none;
+}
+
+#navigation ul .icon{
+    display: flex;
+    align-items: flex-end;
+}

@@ -43,6 +43,10 @@ body{
     height: 50px;
 }
 
+#navigation .icon{
+    display: none;
+}
+
 #applab{
     font-size: 30px;
     font-weight: 700;
@@ -543,7 +547,7 @@ header .container .header_content .badge span{
     text-decoration: none;
     margin-top: 20px;
     padding-top: 10px;
-    margin-right: 10px;[]
+    margin-right: 10px;
     font-weight: 700;
     width: 100px;
     height: 50px;
@@ -824,5 +828,10 @@ footer .container .footer_content .social_icons>:nth-child(3){
 }
 
 footer .container .footer_content .social_icons a{
+    color: #273043;
+}
+
+footer .container .footer_content .copyright{
+    margin-top: 50px;
     color: #273043;
 }
