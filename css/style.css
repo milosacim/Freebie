@@ -714,7 +714,7 @@ header .container .header_content .badge span{
 .question{
     margin-top: 5px;
     background-color: #f5f7fa;
-    box-shadow: 0 0 15px 0 #c4c3c3;
+    box-shadow: 0 0 5px 0 #c4c3c3;
 }
 
 .first_answer{
@@ -787,3 +787,45 @@ footer{
     height: 567px;
     background-color: #09142e;
 }
+
+footer .footer_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+}
+
+#applab .white{
+    color: white;
+}
+
+footer .container .footer_content ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 460px;
+    padding-top: 50px;
+}
+
+footer .container .footer_content ul li a{
+    color: white;
+}
+
+footer .container .footer_content .social_icons{
+    margin-top: 50px;
+
+}
+
+footer .container .footer_content .social_icons>:nth-child(3){
+    color: #ffffff;
+}
+
+footer .container .footer_content .social_icons a{
+    color: #273043;
+}
+
+
+
+
+
+
