@@ -2,17 +2,17 @@ body{
     font-family:'Poppins', sans-serif !important;
 }
 
-/* #navigation{
+#navigation{
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 2;
+    z-index: 3;
     overflow: hidden;
     background-color: white;
-} */
+}
 
 #navigation .container{
-    padding-top: 100px;
+    padding-top: 20px;
     display: flex;
 }
 
@@ -377,7 +377,7 @@ header .container .header_content .badge span{
 }
 
 #choice {
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 #choice .container .content .content_heading{
