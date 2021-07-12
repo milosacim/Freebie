@@ -235,20 +235,20 @@ header .container .header_content .badge span{
 
 .speed{
     position:absolute;
-    top: 10px;
-    left: 10px;
+    top: 15px;
+    left: 17.5px;
 }
 
 .prototype{
     position:absolute;
     top: 10px;
-    left: 10px;
+    left: 17.5px;
 }
 
 .vector{
     position:absolute;
-    top: 20px;
-    left: 10px;
+    top: 15px;
+    left: 17.5px;
 }
 
 #jackpots{
@@ -298,8 +298,8 @@ header .container .header_content .badge span{
 
 .bill {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 15px;
+    left: 17.5px;
 }
 
 #rewards .container .network{
@@ -314,8 +314,8 @@ header .container .header_content .badge span{
 
 .network_icon {
     position: absolute;
-    top: 10px;
-    left: 60px;
+    top: 15px;
+    left: 20px;
 }
 
 #rewards .container .rewards{
@@ -330,8 +330,8 @@ header .container .header_content .badge span{
 
 .icon_badge {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 15px;
+    left: 17.5px;
 }
 
 #design{
