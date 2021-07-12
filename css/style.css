@@ -145,11 +145,11 @@ header .container .header_content .badge span{
 }
 
 #logos .container span{
-    margin-right: 100px;
+    margin: 25px 100px 0 0;
 }
 
 #features{
-    padding-top: 200px;
+    margin-top: 200px;
 }
 
 #features .container .content{
@@ -714,6 +714,11 @@ header .container .header_content .badge span{
     text-align: center;
 }
 
+#questions .container .questions_content .q_heading h1{
+    font-family: 'Poppins SemiBold', sans-serif;
+    font-weight: 700;
+}
+
 #questions .container .questions_content .q_heading p{
     padding: 25px 125px 25px 125px;
 }
@@ -773,6 +778,11 @@ header .container .header_content .badge span{
     justify-content: flex-end;
     position: relative;
     width: 60%;
+}
+
+#download .container .download_content h1{
+    font-family: 'Poppins SemiBold', sans-serif;
+    font-weight: 700;
 }
 
 #download .container .download_content p{
