@@ -734,12 +734,14 @@ header .container .header_content .badge span{
 }
 
 .collapsible{
+    display: flex;
     text-align: left;
     font-weight: 700;
-    padding: 25px 0 50px 50px;
+    padding: 25px 50px 50px 50px;
     border: none;
     cursor: pointer;
     height: 63px;
+    justify-content: space-between;
 }
 
 .collapsible:after {
@@ -747,7 +749,6 @@ header .container .header_content .badge span{
     font-family: "Font Awesome 5 Free";
     color: black;
     font-weight: bold;
-    margin-left: 400px;
 }
 
 .active_q:after{
@@ -755,7 +756,6 @@ header .container .header_content .badge span{
     font-family: "Font Awesome 5 Free";
     color: black;
     font-weight: bold;
-    margin-left: 400px;
 }
 
 .q_answer{
