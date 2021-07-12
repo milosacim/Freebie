@@ -12,7 +12,7 @@ body{
 } */
 
 #navigation .container{
-    padding-top: 4rem;
+    padding-top: 100px;
     display: flex;
 }
 
@@ -24,7 +24,7 @@ body{
 
 #navigation .container ul li{
     list-style-type: none;
-    padding-left: 2rem;
+    padding-left: 50px;
 }
 
 #navigation .container ul li a{
@@ -35,18 +35,18 @@ body{
 }
 
 #navigation .btn {
-    padding-top: .75rem;
-    margin-top: -1rem;
-    margin-left: 2rem;
+    padding-top: 12px;
+    margin-top: -13px;
+    margin-left: 50px;
     font-weight: 700;
-    width: 15rem;
-    height: 3.25rem;
+    width: 250px;
+    height: 50px;
 }
 
 #applab{
     font-size: 30px;
     font-weight: 700;
-    margin-top: -1rem;
+    margin-top: -20px;
 }
 
 #applab .orange{
@@ -65,26 +65,20 @@ header .container{
 
 header .phone {
     position: absolute;
-    top: 5rem;
+    top: 100px;
     left: 60%;
 }
 
 header .container .header_content {
     position: absolute;
-    padding-top: 20rem;
+    padding-top: 320px;
     width: 50%;
     z-index: 2;
 }
 
-#header_bgr{
-    position: absolute;
-    top: 9rem;
-    left: 9.5rem;
-}
-
 #content_bgr{
-    top: 8rem;
-    left: -18rem;
+    top: 100px;
+    left: -280px;
     position: absolute;
 }
 
@@ -98,13 +92,22 @@ header .container .header_content p {
     font-size: 20px;
 }
 
-header .container .header_content a {
+header .container .header_content .links{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+header .container .header_content .links>:nth-child(2){
+    margin-left: 20px;
+}
+
+header .container .header_content .links a {
     text-decoration: none;
-    padding-top: .75rem;
-    margin-right: 1rem;
+    padding-top: 12px;
     font-weight: 700;
-    width: 10rem;
-    height: 3.5rem;
+    width: 150px;
+    height: 50px;
 }
 
 header .container .header_content .badge{
@@ -112,37 +115,37 @@ header .container .header_content .badge{
     justify-content: flex-start;
     font-size: 16px;
     background: #e2eaed;
-    width: 25rem;
-    border-radius: 50rem;
+    width: 400px;
+    border-radius: 50px;
 }
 
 header .container .header_content .badge i{
     color: orange;
-    padding-right: 1rem;
+    padding-right: 10px;
 }
 
 header .container .header_content .badge span{
-    padding-top: .5rem;
+    padding-top: 10px;
 }
 
 #companies h6 {
-    margin: 4rem;
+    margin: 40px;
     display: flex;
     justify-content: center;
 }
 
 #logos .container {
     display: flex;
-    margin: 4rem;
+    margin: 40px;
     justify-content: center;
 }
 
 #logos .container span{
-    margin-right: 6rem;
+    margin-right: 100px;
 }
 
 #features{
-    padding-top: 10rem;
+    padding-top: 200px;
 }
 
 #features .container .content{
@@ -155,12 +158,12 @@ header .container .header_content .badge span{
 
 #features .container .content .phone_2{
     position: absolute;
-    top: -3rem;
-    left: -10rem;
+    top: -50px;
+    left: -100px;
 }
 
 #features .container .content .app_features {
-    margin-left: 35rem;
+    margin-left: 550px;
 }
 
 #features .container .content .app_features .heading h2{
@@ -173,7 +176,7 @@ header .container .header_content .badge span{
 }
 
 #features .container .content .app_features .performance{
-    margin-top: 4rem;
+    margin-top: 40px;
     display: flex;
     position: relative;
 }
@@ -181,11 +184,11 @@ header .container .header_content .badge span{
 #features .container .content .app_features .performance h5{
     color: red;
     font-weight: 700;
-    padding-left: 1.5rem;
+    padding-left: 25px;
 }
 #features .container .content .app_features .performance p{
     width: 65%;
-    padding-left: 1.5rem;
+    padding-left: 15px;
 }
 
 #features .container .content .app_features .prototyping {
@@ -194,22 +197,22 @@ header .container .header_content .badge span{
 
 #features .container .content .app_features .prototyping{
     display: flex;
-    margin-top: 4rem;
+    margin-top: 40px;
 }
 
 #features .container .content .app_features .prototyping h5{
     color: blue;
     font-weight: 700;
-    padding-left: 1.5rem;
+    padding-left: 25px;
 }
 #features .container .content .app_features .prototyping p{
     width: 65%;
-    padding-left: 1.5rem;
+    padding-left: 25px;
 }
 
 #features .container .content .app_features .editing{
     display: flex;
-    margin-top: 4rem;
+    margin-top: 40px;
 }
 
 #features .container .content .app_features .editing{
@@ -219,34 +222,34 @@ header .container .header_content .badge span{
 #features .container .content .app_features .editing h5{
     color: green;
     font-weight: 700;
-    padding-left: 1.5rem;
+    padding-left: 25px;
 }
 #features .container .content .app_features .editing p{
     width: 60%;
-    padding-left: 1.5rem;
+    padding-left: 25px;
 }
 
 .speed{
     position:absolute;
-    top: 1rem;
-    left: 1rem;
+    top: 10px;
+    left: 10px;
 }
 
 .prototype{
     position:absolute;
-    top: 1rem;
-    left: 1rem;
+    top: 10px;
+    left: 10px;
 }
 
 .vector{
     position:absolute;
     top: 20px;
-    left: 1rem;
+    left: 10px;
 }
 
 #jackpots{
     display: flex;
-    margin-top: 15rem;
+    margin-top: 250px;
     justify-content: space-around;
 }
 
@@ -265,18 +268,18 @@ header .container .header_content .badge span{
 }
 
 #rewards .container{
-    margin-top: 8rem;
+    margin-top: 80px;
     display: flex;
 }
 
 #rewards .container h5{
-    padding-top: 1rem;
-    padding-bottom: .5rem;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 
 #rewards .container>:nth-child(2){
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 #rewards .container .payouts{
@@ -291,8 +294,8 @@ header .container .header_content .badge span{
 
 .bill {
     position: absolute;
-    top: 1rem;
-    left: 1rem;
+    top: 10px;
+    left: 10px;
 }
 
 #rewards .container .network{
@@ -307,8 +310,8 @@ header .container .header_content .badge span{
 
 .network_icon {
     position: absolute;
-    top: 1rem;
-    left: 6rem;
+    top: 10px;
+    left: 60px;
 }
 
 #rewards .container .rewards{
@@ -323,12 +326,12 @@ header .container .header_content .badge span{
 
 .icon_badge {
     position: absolute;
-    top: 1rem;
-    left: 1rem;
+    top: 10px;
+    left: 10px;
 }
 
 #design{
-    padding-top: 8rem;
+    padding-top: 150px;
 }
 
 #design .container .content{
@@ -338,8 +341,8 @@ header .container .header_content .badge span{
 }
 
 #design .container .content .design_content {
-    padding-top: 6rem;
-    margin-right: 5rem;
+    padding-top: 60px;
+    margin-right: 50px;
     width: 40%;
 }
 #design .container .content .design_content h1{
@@ -348,7 +351,7 @@ header .container .header_content .badge span{
 }
 
 #design .container .content .design_content p{
-    padding-top: 1rem;
+    padding-top: 10px;
     color: #616368;;
 }
 
@@ -357,20 +360,20 @@ header .container .header_content .badge span{
 }
 
 #design .container img{
-    right: 10rem;
+    right: 100px;
     position: absolute;
 }
 
 #design .btn{
-    padding-top: .75rem;
-    margin-top: 1rem;
+    padding-top: 12.5px;
+    margin-top: 10px;
     font-weight: 700;
-    width: 10rem;
-    height: 3.25rem;
+    width: 150px;
+    height: 50px;
 }
 
 #choice {
-    margin-top: 8rem;
+    margin-top: 200px;
 }
 
 #choice .container .content .content_heading{
@@ -393,7 +396,7 @@ header .container .header_content .badge span{
 #choice .container .content .icons_first_row{
     display: flex;
     justify-content: space-between;
-    padding-top: 6rem;
+    padding-top: 60px;
 }
 
 #choice .container .content .icons_first_row>:nth-child(n){
@@ -402,8 +405,8 @@ header .container .header_content .badge span{
 }
 
 #choice .container .content .icons_first_row>:nth-child(2) {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 72.5px;
+    padding-right: 50px;
 }
 
 #choice .container .content .icons_first_row>:nth-child(n)>:first-child>:nth-child(2){
@@ -411,24 +414,24 @@ header .container .header_content .badge span{
 }
 
 .web_design {
-    top: 1rem;
-    right: 8rem;
+    top: 12.5px;
+    right: 132.5px;
 }
 
 .throphy{
-    top: 1rem;
-    left: 13.25rem;
+    top: 15px;
+    right: 190px;
 }
 
 .computer {
-    top: 1rem;
-    left: 8rem;
+    top: 12.5px;
+    right: 132.5px;
 }
 
 #choice .container .content .icons_second_row{
     display: flex;
     justify-content: space-between;
-    padding-top: 6rem;
+    padding-top: 60px;
 }
 
 #choice .container .content .icons_second_row>:nth-child(n){
@@ -437,8 +440,8 @@ header .container .header_content .badge span{
 }
 
 #choice .container .content .icons_second_row>:nth-child(2) {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 72.5px;
+    padding-right: 50px;
 }
 
 #choice .container .content .icons_second_row>:nth-child(n)>:first-child>:nth-child(2){
@@ -446,25 +449,25 @@ header .container .header_content .badge span{
 }
 
 .tools {
-    top: 1rem;
-    right: 8rem;
+    top: 15px;
+    right: 135px;
 }
 
 .planning{
-    top: 1rem;
-    left: 13.25rem;
+    top: 15px;
+    left: 210px;
 }
 
 .support {
-    top: 1rem;
-    left: 8rem;
+    top: 15px;
+    right: 135px;
 }
 
 #choice .container .content h5{
     font-family: 'Poppins SemiBold', sans-serif;
     font-weight: 700;
-    padding-top: 1rem;
-    padding-bottom: .5rem;
+    padding-top: 15px;
+    padding-bottom: 5px;
 }
 
 #ultimate{
@@ -487,7 +490,7 @@ header .container .header_content .badge span{
 
 #ultimate .container .ultimate_content .icons_first_row,
 #ultimate .container .ultimate_content .icons_second_row{
-    padding-top: 2rem;
+    padding-top: 32px;
     display: flex;
 }
 
@@ -538,12 +541,12 @@ header .container .header_content .badge span{
 
 #ultimate .container .ultimate_content a{
     text-decoration: none;
-    margin-top: 2rem;
-    padding-top: 1rem;
-    margin-right: 1rem;
+    margin-top: 20px;
+    padding-top: 10px;
+    margin-right: 10px;[]
     font-weight: 700;
-    width: 10rem;
-    height: 3.5rem;
+    width: 100px;
+    height: 50px;
 }
 
 #ultimate .container .ultimate_content .images{
@@ -568,7 +571,7 @@ header .container .header_content .badge span{
 
 #pricing .container .pricing_content{
     text-align: center;
-    margin-top: 15rem;
+    margin-top: 250px;
 }
 
 #pricing .container .pricing_content .pricing_heading h1{
@@ -585,7 +588,7 @@ header .container .header_content .badge span{
 }
 
 #pricing .container .pricing_content .switch_plan{
-    margin: 2.5rem 0 2.5rem 0;
+    margin: 25px 0 25px 0;
     display: inline-block;
     width: 220px;
     height: 57px;
@@ -621,7 +624,7 @@ header .container .header_content .badge span{
 #pricing .container .pricing_content .cards .card_2 .top{
     background-color: #f4f7f9;
     height: 234px;
-    padding-top: 2rem;;
+    padding-top: 25px;
 }
 
 #pricing .container .pricing_content .cards .card_1 .top .price,
@@ -633,24 +636,24 @@ header .container .header_content .badge span{
 
 #pricing .container .pricing_content .cards .card_1 .bottom,
 #pricing .container .pricing_content .cards .card_2 .bottom{
-    padding-top: 2.5rem;
+    padding-top: 25px;
 }
 
 #pricing .container .pricing_content .cards .card_1 .bottom .btn,
 #pricing .container .pricing_content .cards .card_2 .bottom .btn{
-    padding-top: 1rem;
-    margin-top: 1rem;
+    padding-top: 10px;
+    margin-top: 10px;
     width: 210px;
-    height: 56px;
+    height: 50px;
 }
 
 #pricing .container .pricing_content .cards .card_2 .trial{
-    padding-top: 2rem;
+    padding-top: 50px;
     text-decoration: none;
 }
 
 #reviews{
-    margin-top: 15rem;
+    margin-top: 150px;
 }
 
 #reviews .container{
@@ -823,9 +826,3 @@ footer .container .footer_content .social_icons>:nth-child(3){
 footer .container .footer_content .social_icons a{
     color: #273043;
 }
-
-
-
-
-
-
