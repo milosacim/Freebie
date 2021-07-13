@@ -1,12 +1,42 @@
-#navigation .btn{
-    display: none;
-}
+@media only screen and (max-width: 1200px) {
+    .menu {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        z-index: -1;
+    }
 
-#navigation ul li{
-    display: none;
-}
+    .menu li{
+        padding-top: 10px;
+        border-bottom: 1px solid #e1e2e4;
+    }
 
-#navigation ul .icon{
-    display: flex;
-    align-items: flex-end;
+    .menu li:hover{
+        background-color: #e1e2e4;
+    }
+
+    .menu .free {
+        display: none;
+    }
+
+    .menu li .nav_free{
+        display: inline;
+    }
+
+    .menu.active{
+        top: 50px;
+    }
+
+    .hamburger {
+        display: block;
+        text-align: right;
+        cursor: pointer;
+    }
+
+
 }
