@@ -1,5 +1,6 @@
 body{
     font-family:'Poppins', sans-serif !important;
+    width: 100%;
 }
 
 .hamburger{
@@ -10,37 +11,37 @@ body{
     display: block;
     width: 25px;
     height: 3px;
-    margin: 5px;
     transition: all 0.3s ease-in-out;
     background-color: #101010;
 }
 
 #navigation{
     position: fixed;
-    margin-left: auto;
-    margin-right: auto;
     top: 0;
     width: 100%;
     z-index: 3;
     overflow: hidden;
     background-color: white;
     padding: 10px 0 10px 0;
+    box-shadow: 0 0 10px 0 #dce0e2;
+    
 }
 
 #navigation .container{
     padding-top: 20px;
     display: flex;
     justify-content: space-between;
+    
 }
 
 #navigation .menu{
     display: flex;
-    padding-left: 75px;
+    padding-left: 25px;
 }
 
 #navigation .container .menu li{
     list-style-type: none;
-    padding-left: 50px;
+    padding-left: 25px;
 }
 
 #navigation .container .menu li a{
@@ -62,14 +63,14 @@ body{
     padding-top: 12px;
     margin-top: -13px;
     font-weight: 700;
-    width: 250px;
+    width: 200px;
     height: 50px;
 }
 
 #applab{
     font-size: 30px;
     font-weight: 700;
-    margin-top: -12.5px;
+    margin-top: -13px;
 }
 
 #applab .orange{
@@ -78,42 +79,38 @@ body{
 
 header {
     background: url(../img/Layer_5.png) repeat-x bottom;
-    background-size: bottom/cover;
-    width: 100%;
     height: 100%;
 }
 
-header .container{
-    position: relative;
-}
-
-header .phone {
-    position: absolute;
-    top: 100px;
-    left: 60%;
-}
-
 header .container .header_content {
-    position: absolute;
-    padding-top: 320px;
-    width: 50%;
-    z-index: 2;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
 }
 
 #content_bgr{
     top: 100px;
-    left: -280px;
+    left: 20px;
     position: absolute;
+}
+
+header .container .header_content .header_text{
+    width: 40%;
+    padding-top: 350px;
+}
+
+header .container .header_content .phone{
+    padding-top: 100px;
 }
 
 header .container .header_content h1{
     font-family: 'Poppins SemiBold', sans-serif;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 700;
 }
 
 header .container .header_content p {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 header .container .header_content .links{
@@ -153,15 +150,13 @@ header .container .header_content .badge span{
 }
 
 #companies h6 {
-    margin: 40px;
-    display: flex;
-    justify-content: center;
+    margin: 100px;
+    text-align: center;
 }
 
 #logos .container {
-    display: flex;
     margin: 40px;
-    justify-content: center;
+    display: flex;
 }
 
 #logos .container span{
@@ -169,33 +164,21 @@ header .container .header_content .badge span{
 }
 
 #features{
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 #features .container .content{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: row;
-    position: relative;
 }
 
-#features .container .content .phone_2{
-    position: absolute;
-    top: -50px;
-    left: -100px;
-}
-
-#features .container .content .app_features {
-    margin-left: 550px;
+#features .container .content .app_features{
+    margin-top: 100px;
 }
 
 #features .container .content .app_features .heading h2{
-    width: 50%;
     font-weight: 700;
-}
-
-#features .container .content .app_features .heading p{
-    width: 75%;
 }
 
 #features .container .content .app_features .performance{
@@ -210,8 +193,7 @@ header .container .header_content .badge span{
     padding-left: 25px;
 }
 #features .container .content .app_features .performance p{
-    width: 65%;
-    padding-left: 15px;
+    padding-left: 25px;
 }
 
 #features .container .content .app_features .prototyping {
@@ -229,7 +211,6 @@ header .container .header_content .badge span{
     padding-left: 25px;
 }
 #features .container .content .app_features .prototyping p{
-    width: 65%;
     padding-left: 25px;
 }
 
@@ -248,29 +229,28 @@ header .container .header_content .badge span{
     padding-left: 25px;
 }
 #features .container .content .app_features .editing p{
-    width: 60%;
     padding-left: 25px;
 }
 
-.speed{
+.speed{ 
     position:absolute;
     top: 15px;
     left: 17.5px;
 }
 
-.prototype{
+.prototype{ 
     position:absolute;
     top: 10px;
     left: 17.5px;
 }
 
-.vector{
+.vector{ 
     position:absolute;
     top: 15px;
     left: 17.5px;
 }
 
-#jackpots{
+#jackpots{ 
     display: flex;
     margin-top: 250px;
     justify-content: space-around;
@@ -315,7 +295,7 @@ header .container .header_content .badge span{
     font-weight: 700;
 }
 
-.bill {
+.bill { 
     position: absolute;
     top: 15px;
     left: 17.5px;
@@ -331,11 +311,11 @@ header .container .header_content .badge span{
     font-weight: 700;
 }
 
-.network_icon {
+.network_icon { 
     position: absolute;
     top: 15px;
     left: 20px;
-}
+} 
 
 #rewards .container .rewards{
     position: relative;
@@ -347,13 +327,13 @@ header .container .header_content .badge span{
     font-weight: 700;
 }
 
-.icon_badge {
+.icon_badge { 
     position: absolute;
     top: 15px;
     left: 17.5px;
 }
 
-#design{
+#design{ 
     padding-top: 150px;
 }
 
@@ -364,9 +344,8 @@ header .container .header_content .badge span{
 }
 
 #design .container .content .design_content {
+    margin-left: 100px;
     padding-top: 60px;
-    margin-right: 50px;
-    width: 40%;
 }
 #design .container .content .design_content h1{
     font-family: 'Poppins SemiBold', sans-serif;
@@ -376,15 +355,6 @@ header .container .header_content .badge span{
 #design .container .content .design_content p{
     padding-top: 10px;
     color: #616368;;
-}
-
-#design .container .content .design_img{
-    position: relative;
-}
-
-#design .container img{
-    right: 100px;
-    position: absolute;
 }
 
 #design .btn{
@@ -400,20 +370,15 @@ header .container .header_content .badge span{
 }
 
 #choice .container .content .content_heading{
-    text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
 
 #choice .container .content .content_heading h1{
-    padding-left: 300px;
-    padding-right: 300px;
     font-family: 'Poppins SemiBold',sans-serif;
     font-weight: 700;
-}
-
-#choice .container .content .content_heading p{
-    padding-top: 25px;
-    padding-left: 230px;
-    padding-right: 230px;
 }
 
 #choice .container .content .icons_first_row{
@@ -437,18 +402,18 @@ header .container .header_content .badge span{
 }
 
 .web_design {
-    top: 12.5px;
-    right: 132.5px;
+    top: 6%;
+    right: 42%;
 }
 
 .throphy{
-    top: 15px;
-    right: 190px;
+    top: 6%;
+    right: 41%;
 }
 
 .computer {
-    top: 12.5px;
-    right: 132.5px;
+    top: 6%;
+    right: 42%;
 }
 
 #choice .container .content .icons_second_row{
@@ -472,18 +437,18 @@ header .container .header_content .badge span{
 }
 
 .tools {
-    top: 15px;
-    right: 135px;
+    top: 6%;
+    right: 42%;
 }
 
 .planning{
-    top: 15px;
-    left: 210px;
+    top: 6%;
+    right: 40%;
 }
 
 .support {
-    top: 15px;
-    right: 135px;
+    top: 6%;
+    right: 42%;
 }
 
 #choice .container .content h5{
@@ -494,14 +459,13 @@ header .container .header_content .badge span{
 }
 
 #ultimate{
-    padding-top: 10rem;
+    padding-top: 100px;
 }
 
 #ultimate .container .ultimate_content{
     display: flex;
-    justify-content: space-between;
-    position: relative;
-    width: 880px;
+    justify-content: flex-start;
+    width: 100%;
 }
 
 #ultimate .container .ultimate_content .ultimate_heading{
@@ -575,39 +539,31 @@ header .container .header_content .badge span{
 }
 
 #ultimate .container .ultimate_content .images{
-    position: absolute;
-    bottom: 700px;
-    left: 650px;
+    padding-top: 100px;
+    position: relative;
 }
 
 #ultimate .container .ultimate_content .images>:nth-child(n){
     position: absolute;
 }
 
-.dark_phone{
-    margin-left: auto;
-    margin-right: auto;
-    top: 100px;
-    left: -50px;
+#pricing{
+    margin-top: 200px;
 }
 
-.light_phone{
-    margin-left: auto;
-    margin-right: auto;
-    top: 100px;
-    left: 200px;
-}
-
-.phone_shadow{
-    margin-left: auto;
-    margin-right: auto;
-    top: 20px;
-    left: 100px;
+#pricing .container .pricing_content .pricing_heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 #pricing .container .pricing_content{
-    text-align: center;
-    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #pricing .container .pricing_content .pricing_heading h1{
@@ -615,6 +571,7 @@ header .container .header_content .badge span{
     padding-right: 250px;
     font-family: 'Poppins SemiBold',sans-serif;
     font-weight: 700;
+    text-align: center;
 }
 
 #pricing .container .pricing_content .pricing_heading p{
@@ -625,7 +582,6 @@ header .container .header_content .badge span{
 
 #pricing .container .pricing_content .switch_plan{
     margin: 25px 0 25px 0;
-    display: inline-block;
     width: 220px;
     height: 57px;
     border: 1px solid #e2eaed;
@@ -637,12 +593,14 @@ header .container .header_content .badge span{
 }
 
 #pricing .container .pricing_content .cards .card_1{
+    text-align: center;
     width: 317px;
     height: 554px;
     box-shadow: 0 0 50px 0 #ebebeb;
 }
 
 #pricing .container .pricing_content .cards .card_2{
+    text-align: center;
     border: 2px solid #ebebeb;
     margin-left: 40px;
     width: 317px;
@@ -688,19 +646,14 @@ header .container .header_content .badge span{
     text-decoration: none;
 }
 
-#reviews{
+#reviews{ 
     margin-top: 150px;
 }
 
-#reviews .container{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-
 #reviews .container .reviews_content{
-    position: relative;
-    width: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 #reviews .container .reviews_content h1,
@@ -715,10 +668,9 @@ header .container .header_content .badge span{
 }
 
 #reviews .container .reviews_content .people_image{
-    position: absolute;
-    top: -40px;
-    right: 550px;
+    margin-top: -40px;
 }
+
 
 #reviews .container .reviews_content .review i{
     padding-top: 40px;
@@ -800,15 +752,20 @@ header .container .header_content .badge span{
     padding: 25px 40px 25px 50px;
 }
 
-#download {
+#download { 
     margin-top: 200px;
+}
+
+#download .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
 }
 
 #download .container .download_content{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    position: relative;
     width: 60%;
 }
 
@@ -821,12 +778,12 @@ header .container .header_content .badge span{
     padding-top: 10px;
 }
 
-.download_img{
+#download .container .download_img{
     position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    top: -90px;
-    left: 540px;
+    right: -250px;
+    top: -100px;
+    max-width: 100%;
+    height: auto;
 }
 
 .store_img{
@@ -834,7 +791,7 @@ header .container .header_content .badge span{
     margin-bottom: 115px;
 }
 
-footer{
+footer{ 
     height: 567px;
     background-color: #09142e;
 }

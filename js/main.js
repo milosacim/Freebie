@@ -1,8 +1,8 @@
-var coll = document.getElementsByClassName("collapsible");
+var questions = document.getElementsByClassName("collapsible");
 var i;
 
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
+for (i = 0; i < questions.length; i++) {
+  questions[i].addEventListener("click", function() {
     this.classList.toggle("active_q");
     var content = this.nextElementSibling;
     if (content.style.display === "none"){
@@ -10,6 +10,7 @@ for (i = 0; i < coll.length; i++) {
     } else {
       content.style.display = "none";
     }
+
   });
 }
 

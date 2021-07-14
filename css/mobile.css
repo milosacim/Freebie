@@ -1,4 +1,106 @@
-@media only screen and (max-width: 1200px) {
+@media screen and (max-width: 1638px){
+    #ultimate .container .ultimate_content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #ultimate .container .ultimate_content .images{
+        display: none;
+    }
+
+    #reviews .container .reviews_content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #download .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    #download .container .download_img{
+       position: unset;
+    }
+}
+
+@media screen and (max-width: 1200px){
+
+    header .container .header_content .phone{
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    #logos .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logos .container span{
+        margin: 25px 50px 0 0;
+    }
+
+    #jackpots{
+        margin-top: 75px;
+    }
+
+    #pricing .container .pricing_content{
+        margin-top: 75px;
+    }
+
+    #reviews .container .reviews_content>:nth-child(2){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .reviews_heading{
+        width: 60%;
+    }
+
+    .people_image{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .design_img {
+        display: none;
+    }
+
+    .phone_2{
+        display: none;
+    }
+
+    #pricing{
+        margin-top: 75px;
+    }
+
+    #pricing .container .pricing_content .pricing_heading{
+        width: 150%;
+    }
+
+    #questions .container{
+        margin-top: 75px;
+    }
+
+    #download{
+        margin-top: 75px;
+    }
+
+    .download_img{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
     .menu {
         position: fixed;
         top: -100%;
@@ -38,5 +140,31 @@
         cursor: pointer;
     }
 
+    .phone{
+        display: none;
+    }
+
+    header .container .header_content .header_text{
+        width: 60%;
+        padding-top: 200px;
+        text-align: center;
+    }
+
+    #content_bgr{
+        display: none;
+    }
+
+    #features{
+        margin-top: 20px;
+    }
+
+    #design .container .content .design_content{
+        margin-left: auto;
+        text-align: center;
+    }
+
+    #choice .container .content .content-heading{
+        width: 150%;
+    }
 
 }
