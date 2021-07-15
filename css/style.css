@@ -717,8 +717,10 @@ header .container .header_content .badge span{
 }
 
 .first_answer{
-    padding: 25px 40px 25px 50px;
-    transition: display 0.2s ease-out;
+    max-height: 110px;
+    overflow: hidden;
+    padding: 0 40px 0 50px;
+    transition: max-height 0.2s ease-out;
 }
 
 .active:hover, .collapsed:hover{
@@ -729,7 +731,7 @@ header .container .header_content .badge span{
     display: flex;
     text-align: left;
     font-weight: 700;
-    padding: 25px 50px 50px 50px;
+    padding: 25px 50px 0 50px;
     border: none;
     cursor: pointer;
     height: 63px;
@@ -754,7 +756,7 @@ header .container .header_content .badge span{
     display: flex;
     text-align: left;
     font-weight: 700;
-    padding: 25px 50px 50px 50px;
+    padding: 25px 50px 0 50px;
     border: none;
     cursor: pointer;
     height: 63px;
@@ -776,9 +778,10 @@ header .container .header_content .badge span{
 }
 
 .q_answer{
-    display: none;
-    padding: 25px 40px 25px 50px;
-    transition: display 0.2s ease-out;
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 40px 0 50px;
+    transition: max-height 0.2s ease-out;
 }
 
 #download { 

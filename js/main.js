@@ -6,10 +6,10 @@ expanded.addEventListener("click", expand);
 function expand(){
   expanded.classList.toggle("inactive");
   var content = expanded.nextElementSibling;
-  if(content.style.display === "block"|| content.style.display===""){
-    content.style.display = "none";
+  if(content.style.maxHeight === "0px"){  
+    content.style.maxHeight = content.scrollHeight + "px";
   } else {
-    content.style.display = "block";
+    content.style.maxHeight = "0px";
   }
 }
 
@@ -17,10 +17,10 @@ for(let i = 0; collapsed.length; i++){
   collapsed[i].addEventListener("click", function(){
     collapsed[i].classList.toggle("active");
     var content = collapsed[i].nextElementSibling;
-    if(content.style.display === "none"|| content.style.display===""){
-      content.style.display = "block";
+    if(content.style.maxHeight){
+      content.style.maxHeight = null;
     } else {
-      content.style.display = "none";
+      content.style.maxHeight = content.scrollHeight + "px";
     }
   }
   );
