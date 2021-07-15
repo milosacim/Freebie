@@ -582,6 +582,8 @@ header .container .header_content .badge span{
 }
 
 #pricing .container .pricing_content .switch_plan{
+    display: flex;
+    justify-content: center;
     margin: 25px 0 25px 0;
     width: 220px;
     height: 57px;
