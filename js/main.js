@@ -1,20 +1,29 @@
-var questions = document.getElementsByClassName("collapsible");
-var i;
+var collapsed = document.getElementsByClassName("collapsed");
+var expanded = document.querySelector(".expanded");
 
-for (i = 0; i < questions.length; i++) {
-  questions[i].addEventListener("click", collapse)
+expanded.addEventListener("click", expand);
+
+function expand(){
+  expanded.classList.toggle("inactive");
+  var content = expanded.nextElementSibling;
+  if(content.style.display === "block"|| content.style.display===""){
+    content.style.display = "none";
+  } else {
+    content.style.display = "block";
+  }
 }
 
-function collapse(){
-  for (i = 0; i < questions.length; i++) {
-    questions[i].classList.toggle("active_q");
-    var content = questions[i].nextElementSibling;
-    if(content.style.display === "none"){
+for(let i = 0; collapsed.length; i++){
+  collapsed[i].addEventListener("click", function(){
+    collapsed[i].classList.toggle("active");
+    var content = collapsed[i].nextElementSibling;
+    if(content.style.display === "none"|| content.style.display===""){
       content.style.display = "block";
     } else {
       content.style.display = "none";
     }
   }
+  );
 }
 
 const hamburger = document.querySelector(".hamburger");

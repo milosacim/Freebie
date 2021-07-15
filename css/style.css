@@ -716,14 +716,14 @@ header .container .header_content .badge span{
 
 .first_answer{
     padding: 25px 40px 25px 50px;
-
+    transition: display 0.2s ease-out;
 }
 
-.active_q:hover, .collapsible:hover{
+.active:hover, .collapsed:hover{
     background-color: #e1e2e4;
 }
 
-.collapsible{
+.expanded{
     display: flex;
     text-align: left;
     font-weight: 700;
@@ -734,14 +734,39 @@ header .container .header_content .badge span{
     justify-content: space-between;
 }
 
-.collapsible:after {
+.expanded:after {
+    content: '\f068';
+    font-family: "Font Awesome 5 Free";
+    color: black;
+    font-weight: bold;
+}
+
+.inactive:after{
     content: '\f067';
     font-family: "Font Awesome 5 Free";
     color: black;
     font-weight: bold;
 }
 
-.active_q:after{
+.collapsed{
+    display: flex;
+    text-align: left;
+    font-weight: 700;
+    padding: 25px 50px 50px 50px;
+    border: none;
+    cursor: pointer;
+    height: 63px;
+    justify-content: space-between;
+}
+
+.collapsed:after {
+    content: '\f067';
+    font-family: "Font Awesome 5 Free";
+    color: black;
+    font-weight: bold;
+}
+
+.active:after{
     content: '\f068';
     font-family: "Font Awesome 5 Free";
     color: black;
@@ -751,6 +776,7 @@ header .container .header_content .badge span{
 .q_answer{
     display: none;
     padding: 25px 40px 25px 50px;
+    transition: display 0.2s ease-out;
 }
 
 #download { 
