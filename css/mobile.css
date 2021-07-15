@@ -98,6 +98,20 @@
         display: none;
     }
 
+    #jackpots{ 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        text-align: center;
+    }
+
+    #jackpots p{
+        border: none;
+        padding-left: 0;
+    }
+
 }
 
 @media screen and (max-width: 900px) {
@@ -122,16 +136,12 @@
         background-color: #e1e2e4;
     }
 
-    .menu .free {
+    .free a{
         display: none;
     }
 
-    .menu li .nav_free{
-        display: inline;
-    }
-
     .menu.active{
-        top: 50px;
+        top: 60px;
     }
 
     .hamburger {
@@ -167,4 +177,10 @@
         width: 150%;
     }
 
+    #ultimate .container .ultimate_content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+    }
 }

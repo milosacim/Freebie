@@ -9,6 +9,7 @@ body{
 
 .bar {
     display: block;
+    margin-top: 5px;
     width: 25px;
     height: 3px;
     transition: all 0.3s ease-in-out;
